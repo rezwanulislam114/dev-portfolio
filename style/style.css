@@ -1,0 +1,55 @@
+/* --------font-------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* ------------shared css style ------------ */
+body{
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 50px;
+}
+.primary-btn {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: white;
+}
+.primary-btn:hover {
+    background-color: #fd0a0a;
+}
+
+
+/* ----------navbar------------ */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover {
+    border-bottom: 3px solid #FD6E0A;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #909090;
+}
+.title span {
+    color: #FD6E0A;
+}
