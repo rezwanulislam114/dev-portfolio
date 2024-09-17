@@ -3,9 +3,12 @@
 
 
 /* ------------shared css style ------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Open Sans", sans-serif;
-    padding: 10px 50px;
 }
 .primary-btn {
     background-color: #FD6E0A;
@@ -20,6 +23,17 @@ body{
 .primary-btn:hover {
     background-color: #fd0a0a;
 }
+
+
+
+/* --------------header ----------- */
+header {
+    background-color: #ffebdc;
+    padding: 25px 45px 0px;
+}
+
+
+
 
 
 /* ----------navbar------------ */
@@ -52,4 +66,39 @@ body{
 }
 .title span {
     color: #FD6E0A;
+}
+
+
+
+
+/* ----------------banner---------------- */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.banner-text h4 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.banner-text h2 {
+    font-size: 72px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #909090;
+}
+.banner-text p {
+    font-size: 22px;
+}
+.banner-text .primary-btn {
+    margin-top: 25px;
+}
+.banner-image {
+    /* background-image: url(/images/header_bg.png); */
+}
+.banner-image img {
+    width: 500px;
 }
